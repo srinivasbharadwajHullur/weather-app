@@ -6,9 +6,6 @@ import Visibility from './visibility.png';
 import WindSpeed from './windspeed.png';
 
 const WeatherDisplay = ({cityName, windSpeed, country, weatherDetails, visibility, mainDetails}) => {
-  
-    
-
   return (
     <Card style={{ width: '18rem', margin: '0px auto', marginTop: 30 }}>
     <Card.Img variant="top" src={`http://openweathermap.org/img/w/${weatherDetails[0].icon}.png`} />
